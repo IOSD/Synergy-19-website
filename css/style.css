@@ -1485,11 +1485,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-top: 0;
 }
 
-#footer .footer-top .footer-links ul a {
+#footer .footer-top .footer-links ul a, .footer-contact a {
   color: #eee;
 }
 
 #footer .footer-top .footer-links ul a:hover {
+  color: #f82249;
+}
+.footer-contact a:hover {
   color: #f82249;
 }
 
