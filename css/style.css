@@ -502,6 +502,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 0 15px;
 }
 
+
 #intro h1 {
   color: #fff;
   font-family: "Raleway", sans-serif;
@@ -1425,3 +1426,12 @@ background: lightblue;
     margin-top: 10px;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  #intro .intro-container h4 {
+    font-size: 12px;
+  }
+  #intro .intro-container img{
+    width: 80%;
+  }
+} 
