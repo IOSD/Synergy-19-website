@@ -2,20 +2,20 @@ jQuery(document).ready(function( $ ) {
 
   // Back to top button
   $(window).scroll(function() {
-    if ($(this).scrollTop() > 100) {
+    if ($(this).scrollTop() > 95) {
       $('.back-to-top').fadeIn('slow');
     } else {
       $('.back-to-top').fadeOut('slow');
     }
   });
   $('.back-to-top').click(function(){
-    $('html, body').animate({scrollTop : 0},1500, 'easeInOutExpo');
+    $('html, body').animate({scrollTop : 0},1450, 'easeInOutExpo');
     return false;
   });
 
   // Header fixed on scroll
   $(window).scroll(function() {
-    if ($(this).scrollTop() > 100) {
+    if ($(this).scrollTop() > 95) {
       $('#header').addClass('header-scrolled');
     } else {
       $('#header').removeClass('header-scrolled');
@@ -37,7 +37,7 @@ jQuery(document).ready(function( $ ) {
   // Initialize Venobox
   $('.venobox').venobox({
     bgcolor: '',
-    overlayColor: 'rgba(6, 12, 34, 0.85)',
+    overlayColor: 'rgba(6, 12, 34, 0.75)',
     closeBackground: '',
     closeColor: '#fff'
   });
@@ -47,7 +47,7 @@ jQuery(document).ready(function( $ ) {
     animation: {
       opacity: 'show'
     },
-    speed: 400
+    speed: 390
   });
 
   // Mobile Navigation
